@@ -1,0 +1,122 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+%\title{Yu Wang Resume -- Awesome}
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper 'a4paper' size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{huawei/awesome-cv-huawei}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=1.4cm, right=1.4cm, bottom=1.6cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% By WY
+%\usepackage[utf8]{inputenc}
+\usepackage{xeCJK}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[left]{wy/wy-0.jpg}
+
+\name{Yu Wang}{(王煜)} 
+
+% ======================================================
+% By WY
+% ------------------------------------------------------
+%\position{
+%	Expertise in simulation, optimization and data-mining
+%    % {\enskip\cdotp\enskip}
+%}
+% ------------------------------------------------------
+\position{
+	Expert in Big-Data, Predictive and Descriptive Analytics 
+    % {\enskip\cdotp\enskip}
+}
+% ======================================================
+
+\address{3729 Windmaker Way, Jacksonville, FL 32224, USA}
+\mobile{(951) 878-0817}
+\email{wangyu.pitt@gmail.com}
+%\homepage{www.posquit0.com}
+%\github{posquit0}
+\linkedin{farheart}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Yu Wang~~~·~~~wangyu.pitt@gmail.com}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{huawei/1-qualification.tex}
+\input{huawei/2-experience.tex}
+\input{huawei/3-education.tex}
+\input{huawei/4-skills.tex}
+\input{huawei/5-publication.tex}
+\input{wy/6-honors.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
