@@ -196,10 +196,10 @@
 %\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{graytext} #1}}
 %\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
 % ----------------------------------------------------------
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}
-{1em}\headerfont\bfseries\color{text} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{42pt}
 {1em}\headerfontlight\color{graytext} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}
+{1em}\headerfont\bfseries\color{text} #1}}
 % ==========================================================
 
 
