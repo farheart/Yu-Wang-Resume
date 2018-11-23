@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  22 NOV 2018 23:28
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  23 NOV 2018 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,11 +8,7 @@ entering extended mode
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./wy/awesome-cv-wy.cls
-
-LaTeX Warning: You have requested document class `wy/awesome-cv-wy',
-               but the document class provides `awesome-cv'.
-
-Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
+Document Class: wy/awesome-cv-wy 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
@@ -1219,9 +1215,9 @@ Package: xtemplate 2018/02/21 L3 Experimental prototype document functions
  (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2018/04/07 v3.7.0 Configuration file for xeCJK package
 ))
-\g__fontspec_family_HeitiSCLight_int=\count308
+\g__fontspec_family_WenQuanYiMicroHei_int=\count308
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 54.
+(Font)              scaled to size 10.95pt on input line 53.
  (./wy-resume.aux)
 \openout1 = `wy-resume.aux'.
 
@@ -1366,17 +1362,17 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 30.
+(Font)              scaled to size 10.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 30.
+(Font)              scaled to size 10.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 30.
+(Font)              scaled to size 9.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not available
-(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on input line 30.
+(Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 30.
+(Font)              scaled to size 9.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 30.
+(Font)              scaled to size 11.0pt on input line 24.
 ) (./wy/2-experience_wmt.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 45.
@@ -1395,25 +1391,30 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 11.0pt on input line 45.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 13.19997pt on input line 92.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 119.
+(Font)              scaled to size 13.19997pt on input line 93.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 138.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.00017pt on input line 119.
+(Font)              scaled to size 11.00017pt on input line 138.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.70007pt on input line 119.
+(Font)              scaled to size 7.70007pt on input line 138.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.50008pt on input line 119.
+(Font)              scaled to size 5.50008pt on input line 138.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.99983pt on input line 119.
+(Font)              scaled to size 10.99983pt on input line 138.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.69984pt on input line 119.
+(Font)              scaled to size 7.69984pt on input line 138.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.49991pt on input line 119.
+(Font)              scaled to size 5.49991pt on input line 138.
 ) (./wy/3-education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 9.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 9.
+
+
+LaTeX Font Warning: Font shape `TU/WenQuanYiMicroHei(0)/m/sc' undefined
+(Font)              using `TU/WenQuanYiMicroHei(0)/m/n' instead on input line 9.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 9.00014pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1426,11 +1427,6 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99991pt on input line 9.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99992pt on input line 9.
-
-
-LaTeX Font Warning: Font shape `TU/HeitiSCLight(0)/m/sc' undefined
-(Font)              using `TU/HeitiSCLight(0)/m/n' instead on input line 9.
-
 [1
 
 ]
@@ -1465,11 +1461,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 39581 strings out of 492970
- 795602 string characters out of 6133938
- 1011564 words of memory out of 5000000
- 43049 multiletter control sequences out of 15000+600000
- 535765 words of font info for 116 fonts, out of 8000000 for 9000
+ 39572 strings out of 492970
+ 795587 string characters out of 6133938
+ 1011635 words of memory out of 5000000
+ 43043 multiletter control sequences out of 15000+600000
+ 535757 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,11n,89p,10477b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
